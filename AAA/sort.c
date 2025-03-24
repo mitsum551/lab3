@@ -16,3 +16,11 @@ int selectSortUpgraded(int arr[], int n) {
     }
     return (Mf+Cf);
 }
+
+
+
+
+void main(){
+	int a[]={4,0};
+	printf("%d \n", selectSortUpgraded(a[], 2));
+}
