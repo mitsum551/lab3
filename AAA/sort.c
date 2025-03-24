@@ -1,7 +1,7 @@
 int selectSortUpgraded(int arr[], int n) {
     int i, j, min_idx;
     int Cf = 0;
-    int Mf = 0;
+    int Mf = 0;   //l
     for (i = 0; i < n - 1; i++) {
         min_idx = i;
         for (j = i + 1; j < n; j++) {
